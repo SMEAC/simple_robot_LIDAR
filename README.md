@@ -1,6 +1,6 @@
-# simple_robot_custom_ctlr
+# simple_robot_LIDAR
 
-This ROS package provides a slice step up on the simple_robot model, by removing the differential drive controller, and replacing it with two velocity controllers for the two wheels.  It provides a suitable template for students to test the knowledge of mobile robot kinematics, to replicate the differential drive controller.
+This ROS package provides a slight step up on the simple_robot_custom_ctlr model, by adding LIDAR Components to the Gazebo files.
 
 Included in the package are:
 * Package.xml and CMakeLists.txt files
@@ -9,11 +9,3 @@ Included in the package are:
 * a config file for the velocity controllers
 * a launch file for Gazebo and Rviz
 * a config file for Rviz
-
-To test the Package, start the launch file, see that no errors appear in the command window while starting Gazebo and then in a second terminal window, send a command to one of the velocity controllers with:
-
-rostopic pub wheel_left_velocity_controller/command std_msgs/Float64 -- '0.5'
-
-or 
-
-rostopic pub wheel_right_velocity_controller/command std_msgs/Float64 -- '0.5'
