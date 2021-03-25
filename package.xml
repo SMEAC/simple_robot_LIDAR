@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
-  <name>simple_robot_custom_ctlr</name>
+  <name>simple_robot_LIDAR</name>
   <version>0.0.1</version>
   <description>
-    This ROS package provides a simple starting point for a mobile robotics course.  It is so developed, that the students can continually improve varying points of the package as their knowledge increases.
+    This ROS package provides a slight advancement on the simple robot by including LIDAR components in the robot urdf
   </description>
   
   <maintainer email="gavin.kane@hs-emden-leer.de">Gavin Kane</maintainer>
